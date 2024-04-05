@@ -3,18 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/bestselling"
+        android:id="@+id/nav_books"
         android:enabled="true"
         android:icon="@drawable/baseline_menu_book_24"
-        android:title="Bestselling"
+        android:title="@string/books"
         app:showAsAction="ifRoom"
         />
 
     <item
-        android:id="@+id/search"
+        android:id="@+id/nav_articles"
         android:enabled="true"
         android:icon="@drawable/baseline_article_24"
-        android:title="Article Search"
+        android:title="@string/articles"
         app:showAsAction="ifRoom"
         />
 
